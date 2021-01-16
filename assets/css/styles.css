@@ -169,6 +169,20 @@ img{
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Active menu*/
 .active::after{
   position: absolute;
@@ -256,15 +270,83 @@ img{
 }
 .about__img{
   justify-self: center;
+  
+
 }
 .about__img img{
-  width: 200px;
+  width: 500px;
   border-radius: .5rem;
 }
+
+.about__text{
+  top:5p0x
+
+}
+
+
+
 .section-title{
   position:relative; top:-40px;
   
 }
+
+.btn {
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: .2rem; 
+  
+}
+.btn-secondary {
+  background-color: #FFC13D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+}
+.btn-secondary{border-radius: 12px;}
+.btn-secondary {
+  transition-duration: 0.4s;
+}
+
+.btn-secondary:hover {
+  background-color:#233142; /* Green */
+  color: white;
+}
+
+
+
+
+
+.btn-secondary {
+  position: center;
+
+  height: 40px;
+  font-family: Scheherazade;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 5px;
+  /* or 320% */
+  
+  
+  color: rgba(0, 0, 0, 0.63);
+}
+  
+
+
+
+
+
+
+
+      
+
+
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -308,37 +390,24 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 80%;
 }
 .skills__css{
-  width: 85%;
+  width: 75%;
 }
 .skills__js{
   width: 65%;
 }
 .skills__ux{
-  width: 85%;
+  width: 65%;
 }
 .skills__img{
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
-.work__container{
-  row-gap: 2rem;
-}
-.work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.work__img img{
-  transition: 1s;
-  cursor: pointer;
-}
-.work__img img:hover{
-  transform: scale(1.1);
-}
+
+
+
 
 /* ===== CONTACT =====*/
 .contact__input{
@@ -373,17 +442,31 @@ img{
   padding: 2rem 0;
 }
 .footer__title{
-  font-size: 2rem;
+  font-size: 13px;
   margin-bottom: var(--mb-4);
 }
 .footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
-  font-size: 1.5rem;
+  font-size: -1rem;
   color: black;
-  margin: 0 var(--mb-2)
+  margin: 0 var(--mb-2);
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 10px;
 }
+.footer__lower{
+  font-size: 14px;
+  margin-bottom: var(--mb-4);
+
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
@@ -471,3 +554,4 @@ img{
     right: 10%;
   }
 }
+
